@@ -1,0 +1,59 @@
+.name{
+    font-style: ;
+    color: darkblue;
+    font-size:xxx-large;
+    font-weight: 700;
+}
+.dai{
+    color: brown;
+    font-weight: 400;
+    font-size: xxx-large;
+}
+.fir{
+    border: solid 1px white ;
+    background-color: lightgray;
+    text-align: center;
+    font-size: x-larger;
+}
+.sid-hd{
+    color: brown;
+}
+.logo{
+    height: 30px;
+    width: 80px;
+}
+.butt{
+    float: right;
+    border: solid .5px black;
+    background-color: lightgray;
+}
+.menu{
+    border: solid 1px white;
+    background-color: lightgray;
+}
+.date{
+    float: right;
+
+}
+.news{
+    font-weight: 600;
+    font-size: xx-large;
+}
+.dd{
+    color: darkblue;
+
+}
+.foot{
+    border: solid 1px white;
+    background-color: lightgray;
+}
+.last{
+    text-align: center;
+}
+.side-bar{
+    float: right;
+    border: solid 1px black;
+}
+body{
+    padding: 10px;
+}
