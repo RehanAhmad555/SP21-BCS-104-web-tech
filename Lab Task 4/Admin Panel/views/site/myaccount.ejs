@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <!-- Add your stylesheets and other head elements here -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Welcome to Your Account, user1</h1>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+
+    <!-- Personal Information -->
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> admin</p>
+        <p><strong>Email:</strong> admin11@admin.com</p>
+        <p><strong>Address:</strong> Lahore</p>
+    </section>
+
+    <!-- Order History -->
+    <section id="order-history">
+        <h2>Order History</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Total</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>2023-01-01</td>
+                <td>$50.00</td>
+                <td>Shipped</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="account-settings">
+        <h2>Account Settings</h2>
+        <p><strong>Notification Preferences:</strong> On</p>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<%-contentFor("footer") %>
+
+<!-- Add your scripts and other body elements here -->
+
+</body>
+</html>
